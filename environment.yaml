@@ -1,0 +1,30 @@
+name: kayak_project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Core data processing
+  - python=3.11
+  - pandas>=2.0
+  - numpy>=1.24
+  
+  # Web scraping
+  - selenium>=4.0
+  
+  # Visualization
+  - plotly>=5.0
+  
+  # AWS
+  - boto3>=1.28
+  
+  # HTTP requests
+  - requests>=2.31
+  
+  # Environment variables
+  - python-dotenv>=1.0
+  
+  # WebDriver manager (via pip)
+  - pip>=23.0
+  
+  - pip:
+    - webdriver-manager>=4.0
