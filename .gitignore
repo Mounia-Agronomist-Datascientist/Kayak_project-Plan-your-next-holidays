@@ -1,0 +1,64 @@
+# Environment and credentials
+.env
+.env.local
+.env.*.local
+
+# Conda environment
+kayak_project/
+env/
+venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+
+# Data files (optional)
+*.csv
+*.json
+
+# AWS
+.aws/
+aws_credentials
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+
+# Project specific
+*.html  # Local HTML files (uploaded versions go to S3)
+
+# Data
+DATA/*
+DATA/
